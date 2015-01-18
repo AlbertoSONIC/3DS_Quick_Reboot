@@ -1,7 +1,7 @@
 Quick Reboot 
 ===============
 
-Today i introduce you to a basic but usefull 3DS Homebrew: 3DS Paint! With this app you can quickly reboot your 3ds!
+Today i introduce you to a basic but usefull 3DS Homebrew: Quick Reboot! With this app you can quickly reboot your 3ds!
 It also has a security check: if this app gets booted with the L button held, it doesn't reboot. This is usefull if you 
 opened Quick Reboot App by accident... 
 
