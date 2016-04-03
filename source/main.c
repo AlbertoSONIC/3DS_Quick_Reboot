@@ -7,9 +7,6 @@
 int main()
 {
 	// Initialize services
-	srvInit();
-	aptInit();
-	hidInit(NULL);
 	gfxInitDefault();
 
     u32 input;
@@ -27,15 +24,12 @@ int main()
 		{
 			//Reboot Code
 			aptOpenSession();
-			APT_HardwareResetAsync(NULL);
+			APT_HardwareResetAsync();
 			aptCloseSession();
 		}
 	}
 
 	// Exit services
 	gfxExit();
-	hidExit();
-	aptExit();
-	srvExit();
 	return 0;
 }
